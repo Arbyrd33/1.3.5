@@ -4,9 +4,9 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
-	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -14,19 +14,21 @@
 <body>
 	<div>
 		<header>
-			<div>
+			<div class="header-container">
 				<h1><a id ="refresh" href="/index.html">BLOOMTECH BAR AND GRILL</a></h1>
 				<nav>
-					<a href="/menu.html">Menu</a>
-					<a href="#">Reservations</a>
-					<a href="#">Special Offers</a>
-					<a href="#">Contact</a>
+					<div class="links">
+						<a href="/menu.html">Menu</a>
+						<a id="/Reservations" href="#">Reservations</a>
+						<a id="/Special Offers" href="#">Special Offers</a>
+						<a id="/Contact" href="#">Contact</a>
+					</div>
+					<div class="socials">
+						<a id="facebook" href="https://www.facebook.com/BloomTech/" title="Find us on Facebook!"><i class="facebook"><img src="https://img.icons8.com/ios-glyphs/1.2x/E1F0E6/facebook.png" alt="Find us on facebook!"></a>
+						<a id="twitter" href="https://twitter.com/bloomtech" title="Find us on twitter!"><img src="https://img.icons8.com/material/1.5x/E1F0E6/twitter.png" alt="Find us on Twitter!"></a>
+						<a id="instagram" href="https://www.instagram.com/bloomtechofficial/" title="Find us on instagram!"><img src="https://img.icons8.com/material/1.5x/E1F0E6/instagram-new.png" alt="Find us on Instagram!" ></a>
+					</div>
 				</nav>
-				<section id="socials">
-					<a href="https://www.facebook.com/BloomTech/"><img src="https://img.icons8.com/ios-glyphs/.8x/E1F0E6/facebook.png" alt="Find us on Facebook!" title="Find us on Facebook!"></a>
-					<a href="https://twitter.com/bloomtech"><img src="https://img.icons8.com/material/1x/E1F0E6/twitter.png" alt="Find us on Twitter!" title="Find us on Twitter!"></a>
-					<a href="https://www.instagram.com/bloomtechofficial/"><img src="https://img.icons8.com/material/1x/E1F0E6/instagram-new.png" alt="Find us on Instagram!" title="Find us on Instagram!"></a>
-				</section>
 			</div>
 		</header>
 
@@ -124,8 +126,8 @@
 				<section class="mailingList">
 					<h3>Join our mailing list!</h3>
 					<form>
-						<input type="text" id="email" placeholder="Email Address...">
-						<input type ="submit" value="Sign Up">
+						<input type="text" id="footerInput" placeholder="Email Address">
+						<button>Sign Up</button>
 					</form>
 				</section>
 					
