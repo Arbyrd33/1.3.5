@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint Challenge - Menu</title>
-    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -15,22 +15,23 @@
     <div>
         <!-- header -->
         <header>
-			<div>
+			<div class="header-container">
 				<h1><a id ="refresh" href="/index.html">BLOOMTECH BAR AND GRILL</a></h1>
 				<nav>
-					<a href="/menu.html">Menu</a>
-					<a href="#">Reservations</a>
-					<a href="#">Special Offers</a>
-					<a href="#">Contact</a>
+					<div class="links">
+						<a href="/menu.html">Menu</a>
+						<a id="/Reservations" href="#">Reservations</a>
+						<a id="/Special Offers" href="#">Special Offers</a>
+						<a id="/Contact" href="#">Contact</a>
+					</div>
+					<div class="socials">
+						<a id="facebook" href="https://www.facebook.com/BloomTech/" title="Find us on Facebook!"><i class="facebook"><img src="https://img.icons8.com/ios-glyphs/1.2x/E1F0E6/facebook.png" alt="Find us on facebook!"></a>
+						<a id="twitter" href="https://twitter.com/bloomtech" title="Find us on twitter!"><img src="https://img.icons8.com/material/1.5x/E1F0E6/twitter.png" alt="Find us on Twitter!"></a>
+						<a id="instagram" href="https://www.instagram.com/bloomtechofficial/" title="Find us on instagram!"><img src="https://img.icons8.com/material/1.5x/E1F0E6/instagram-new.png" alt="Find us on Instagram!" ></a>
+					</div>
 				</nav>
-				<section id="socials">
-					<a href="https://www.facebook.com/BloomTech/"><img src="https://img.icons8.com/ios-glyphs/.8x/E1F0E6/facebook.png" alt="Find us on Facebook!" title="Find us on Facebook!"></a>
-					<a href="https://twitter.com/bloomtech"><img src="https://img.icons8.com/material/1x/E1F0E6/twitter.png" alt="Find us on Twitter!" title="Find us on Twitter!"></a>
-					<a href="https://www.instagram.com/bloomtechofficial/"><img src="https://img.icons8.com/material/1x/E1F0E6/instagram-new.png" alt="Find us on Instagram!" title="Find us on Instagram!"></a>
-				</section>
 			</div>
 		</header>
-
         <!-- spacer -->
         <div class="spacer"></div>
 
@@ -41,112 +42,111 @@
                 <section class="menu-section">
                     <h2>Drinks</h2>
                     <section class="menu-item">
-                        Soda
-                        $2
+                        <h4>Soda</h4>
+                        <h4>$2</h4>
                         Coke products
                     </section>
                     <section class="menu-item">
                         <h4>Coffee</h4>
-                        $2
+                        <h4>$2</h4>
                         Cream and sugar available upon request
                     </section>
                     <section class="menu-item">
-                        Beer
-                        $5
+                        <h4>Beer</h4>
+                        <h4>$5</h4>
                         Delicious and refreshing
                     </section>
                     <section class="menu-item">
-                        Wine
-                        $5
+                        <h4>Wine</h4>
+                        <h4>$5</h4>
                         Light and fruity
                     </section>
                     <section class="menu-item">                
-                        Cocktail
-                        $10
+                        <h4>Cocktail</h4>
+                        <h4>$10</h4>
                         Ask about our specials
                     </section>
                 </section>
                 <section class="menu-section">
                     <h2>Appetizers</h2>
                     <section class="menu-item">
-                        Fried Pickles
-                    $6
-                    Golden and crispy with tang!
-                    (V)
+                        <h4>Fried Pickles</h4>
+                        <h4>$6</h4>
+                        Golden and crispy with tang!
+                        (V)
                     </section>
                     <section class="menu-item">
-                        Buffalo Wings
-                    $10
-                    5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks
-                    (GF)
+                        <h4>Buffalo Wings</h4>
+                        <h4>$10</h4>
+                        5 wings per order; mild, medium, or hot sauce and served with bleu cheese/ranch and carrot sticks
+                        (GF)
                     </section>
                     <section class="menu-item">
-                        Poutine
-                    $5
-                    Homemade fries topped with everything but the kitchen sink
+                        <h4>Poutine</h4>
+                        <h4>$5</h4>
+                        Homemade fries topped with everything but the kitchen sink
                     </section>
-
                 </section>
                 <section class="menu-section">
                     <h2>Soup and Salad</h2> 
                     <section class="menu-item">
-                        House Salad
-                    $8
-                    Spinach and arugala with all the good veggies; add chicken for $6
-                    (GF, V)
+                        <h4>House Salad</h4>
+                        <h4>$8</h4>
+                        Spinach and arugala with all the good veggies; add chicken for $6
+                        (GF, V)
                     </section>
                     <section class="menu-item">
-                        French Onion Soup
-                    $4
-                    Served with a thick topping of cheese and delicious bread
+                        <h4>French Onion Soup</h4>
+                        <h4>$4</h4>
+                        Served with a thick topping of cheese and delicious bread
                     </section>
                     <section class="menu-item">
-                        Cheddar Broccoli Soup
-                    $5
-                    Creamy and filling
-                    (GF)
+                        <h4>Cheddar Broccoli Soup</h4>
+                        <h4>$5</h4>
+                        Creamy and filling
+                        (GF)
                 </section>
             </section>
             <section class="menu-section">
                 <h2>Entrees</h2>
-                <section class="menu-item">
-                    Ribeye Steak
-                    $32
-                    Served with mashed potatoes and roasted asparagus
+                    <section class="menu-item">
+                        <h4>Ribeye Steak</h4>
+                        <h4>$32</h4>
+                        Served with mashed potatoes and roasted asparagus
                     </section>
                     <section class="menu-item">
-                    Big Boy Burger
-                    $14
-                    Beef or black bean burger on homemade bun served with fries
-                    Black Bean Burger: (V)
+                        <h4>Big Boy Burger</h4>
+                        <h4>$14</h4>
+                        Beef or black bean burger on homemade bun served with fries
+                        Black Bean Burger: (V)
                     </section>
                     <section class="menu-item">
-                    Pork Shortrib
-                    $18
-                    Melt off the bone finger food
-                    (GF)
+                        <h4>Pork Shortrib</h4>
+                        <h4>$18</h4>
+                        Melt off the bone finger food
+                        (GF)
                     </section>
-                </section>
-                <section class="menu-section">
-                    <h2>Desserts</h2>
+            </section>
+            <section class="menu-section">
+                <h2>Desserts</h2>
                     <section class="menu-item">
-                    Flourless Chocolate Cake
-                    $7
-                    Gooey and chocolatey heaven
-                    (GF)
-                    </section>
-                    <section class="menu-item">
-                    Cookies and Ice Cream
-                    $6
-                    Choose 2 cookies and 1 scoop of ice cream from an assortment
+                        <h4>Flourless Chocolate Cake</h4>
+                        <h4>$7</h4>
+                        Gooey and chocolatey heaven
+                        (GF)
                     </section>
                     <section class="menu-item">
-                    Creme Brulee
-                    $8
-                    Crispy scorched top containing a perfect, smooth custard
-                    (GF)
+                        <h4>Cookies and Ice Cream</h4>
+                        <h4>$6</h4>
+                        Choose 2 cookies and 1 scoop of ice cream from an assortment
                     </section>
-                </section>
+                    <section class="menu-item">
+                        <H4>Creme Brulee</H4>
+                        <H4>$8</H4>
+                        Crispy scorched top containing a perfect, smooth custard
+                        (GF)
+                    </section>
+            </section>
             </div>
         </article>
 
