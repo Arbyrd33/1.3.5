@@ -33,13 +33,13 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 ​
 ## Project Set Up
 ​
-1. Fork the repository, then clone from your fork.
-2. Go into Canvas and connect your repo to CodeGrade.
-4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
-5. cd into your repository on the command line and use `code .` to open VS Code.
-6. Open the terminal in VSC and type `npm install`. While this runs, click the split terminal icon.
-7. Next type `npm run test` in one side, and use the other side for git commands or general use.
-8. Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
+x1. Fork the repository, then clone from your fork.
+x2. Go into Canvas and connect your repo to CodeGrade.
+x4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
+x5. cd into your repository on the command line and use `code .` to open VS Code.
+x6. Open the terminal in VSC and type `npm install`. While this runs, click the split terminal icon.
+x7. Next type `npm run test` in one side, and use the other side for git commands or general use.
+x8. Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
 9. Complete your work making regular commits to the main branch; your CodeGrade score will update each time you make a push.
 ​
 ​
@@ -69,7 +69,7 @@ You **must** use the Google Chrome developer tools during your HTML/CSS implemen
 ​
 Review the provided design file for the home page.
 ​
-* [ ] Build the HTML and CSS to create the missing header and footer sections.
+* [ x ] Build the HTML and CSS to create the missing header and footer sections.
 * [ ] Link the h1 page title to the [index.html](index.html) page.
 * [ ] Link the `Menu` navigation item to the [menu.html](menu.html) page.
 * [ ] Create social media buttons on header for [Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands), [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands), and [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands) with the linked icons.
